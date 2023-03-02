@@ -10,3 +10,12 @@ function something(params) {
 function bla() {
     document.save()
 }
+let btn_click = addEventListener("click", fahrenheit)
+
+
+function celsiuss(params) {
+    let celsius1 = fahrenheit-32
+    let celsius2 = celsius1*5
+    let celsius = celsius2/9
+    return document
+}
