@@ -10,12 +10,10 @@ function something(params) {
 function bla() {
     document.save()
 }
-let btn_click = addEventListener("click", fahrenheit)
-
-
+let fahrenheit = document.getElementById("cel")
 function celsiuss(params) {
-    let celsius1 = fahrenheit-32
-    let celsius2 = celsius1*5
-    let celsius = celsius2/9
-    return document
+    return (5/9) * (fahrenheit-32);
+}
+function result(celsiuss) {
+    document.getElementById("result").innerHTML = "Your result is "+celsiuss;
 }
