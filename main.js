@@ -1,2 +1,2 @@
-document.getElementById("Hello").innerHTML = "Hello Javascript!";
-console.log(test)
+document.getElementById("demo").innerHTML="Hello JavaScript";
+console.log("Hello World!")
